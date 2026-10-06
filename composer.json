@@ -28,6 +28,9 @@
     "require-dev": {
         "mediatis/coding-standards": "^2.2"
     },
+    "conflict": {
+        "digital-marketing-framework/typo3-distributor-cookie": "<2.0"
+    },
     "autoload": {
         "psr-4": {
             "DigitalMarketingFramework\\Distributor\\Cookie\\": "src/"
